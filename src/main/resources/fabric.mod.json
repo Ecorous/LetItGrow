@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "letitgrow",
+  "version": "${version}",
+  "name": "Let it Grow",
+  "description": "Lets Cactus and Sugar Cane grow further. They won't hold back anymore",
+  "authors": [
+    "Exo"
+  ],
+  "contact": {
+    "website": "https://frogastudios.com",
+    "repo": "https://github.com/froga-studios/LetItGrow"
+  },
+  "license": "MIT",
+  "icon": "assets/letitgrow/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.frogastudios.letitgrow.client.LetItGrowClient"
+    ],
+    "main": [
+      "com.frogastudios.letitgrow.LetItGrow"
+    ]
+  },
+  "mixins": [
+    "letitgrow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
